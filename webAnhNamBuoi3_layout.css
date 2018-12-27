@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    background: black url('logo.jpg');
+    height: 100px;
+    width: 10%;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+}
+#nav ul li{
+    background: gainsboro;
+    float: left;
+    color: black;
+    padding: 15px 46px;
+    list-style: none;
+    position: relative;
+}
+.drop-down{
+    display: none;
+    position: absolute;
+    padding: 20px;
+}
+#nav ul li:hover .drop-down{
+    background: papayawhip;
+    display: block;
+}
